@@ -4,7 +4,7 @@ const express = require('express'),
       mongoose = require('mongoose'),
       path= require('path')
 
-      server = app.listen(5002),
+      server = app.listen(5000),
 
        io = require('socket.io').listen(server)
        
@@ -46,10 +46,10 @@ const express = require('express'),
 
       if(process.env.NODE.ENV === 'production'){
         //set static folder
-        app.use(express.static('client/build'))
+        app.use(express.static('clientc/build'))
 
         app.get('*', (req, res)=>{
-          res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+          res.sendFile(path.resolve(__dirname, 'clientc', 'build', 'index.html'))
         })
       }
 
