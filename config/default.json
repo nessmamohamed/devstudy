@@ -1,0 +1,4 @@
+{
+    "mongoURL": "mongodb+srv://nesso:111222333Nn@nmcluster-tb0vp.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "Ur-mySecret"
+}
