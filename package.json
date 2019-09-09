@@ -9,7 +9,7 @@
     "start": "nodemon server.js",
     "server": "node server.js",
     "dev": "concurrently \"npm run server\" \"npm run clientc\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd clientc && npm install && npm run build"
   },
   "author": "ness",
   "license": "ISC",
