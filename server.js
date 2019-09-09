@@ -4,7 +4,7 @@ const express = require('express'),
       mongoose = require('mongoose'),
       path= require('path')
 
-      server = app.listen(process.env.Port || 5000),
+      server = app.listen(process.env.PORT || 5000),
 
        io = require('socket.io').listen(server)
        
@@ -44,13 +44,14 @@ const express = require('express'),
 
       //serve static assets if in production
 
-      if(process.env.NODE.ENV === 'production'){
+      if(process.env.NODE_ENV === 'production'){
         //set static folder
         app.use(express.static('clientc/build'))
 
         app.get('*', (req, res)=>{
           res.sendFile(path.join(__dirname, 'clientc', 'build', 'index.html'))
         })
+        
       }
 
 
