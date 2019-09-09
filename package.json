@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "text": "echo \"Error: no test specified\" && exit 1",
+    "clientc-install": "npm install --prefix clientc",
+    "clientc": "npm start --prefix clientc",
     "start": "node server.js",
+    "dev": "concurrently \"npm run start\" \"npm run clientc\"",
     "heroku-postbuild": "cd clientc && npm install && npm run build"
   },
   "author": "ness",
