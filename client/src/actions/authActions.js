@@ -18,7 +18,7 @@ import {
     // User loading
     dispatch({ type: USER_LOADING });
   
-    axios.get('http://localhost:5000/api/auth', tokenConfig(getState))
+    axios.get('/api/auth', tokenConfig(getState))
       .then(res =>
         dispatch({
           type: USER_LOADED,
@@ -44,7 +44,7 @@ import {
 
     const body = JSON.stringify({name, email, password})
 
-    axios.post('http://localhost:5000/api/user', body, config)
+    axios.post('/api/user', body, config)
     .then(res => dispatch({
       type: REGISTER_SUCCESS, 
       payload: res.data
@@ -68,7 +68,7 @@ import {
 
       const body = JSON.stringify({email, password}) 
 
-      axios.post('http://localhost:5000/api/auth', body, config)
+      axios.post('/api/auth', body, config)
       .then(res => dispatch({
         type: LOGIN_SUCCESS,
         payload: res.data
