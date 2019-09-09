@@ -10,13 +10,13 @@ let socketIoMiddleware = createSocketIoMiddleware(socket, "server/");
 const Middleware = [thunk],
       initState = {}
 
+const enhancer = compose(applyMiddleware(...Middleware, socketIoMiddleware))
 
-const store = createStore(rootReducer, initState, compose(
-    applyMiddleware(...Middleware, socketIoMiddleware)
-    ,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+const store = createStore(rootReducer, initState, enhancer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 
     
-))
+)
 
 
 
