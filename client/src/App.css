@@ -31,3 +31,347 @@
     transform: rotate(360deg);
   }
 }
+
+.icon{
+  max-height: 50px;
+  border-radius: 50%;
+  
+}
+
+.imgSt{
+  position: center;
+  background-size: cover;
+  min-width: 100%;
+  height: 950px;
+  -webkit-filter: opacity(1.5px);
+  filter: blur(1.5px)
+}
+
+.containerrr {
+position: relative;
+overflow: hidden;
+
+}
+.containertext{
+  
+  position: absolute;
+  top: 50px;
+  left:  7%;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+.wave{
+  color: yellow;
+  font-size: 60px;
+  
+}
+.spa{
+  font-size: 30px;
+  margin-bottom: 40px
+}
+
+#button{
+  background: yellow;
+  display: inline;
+  color: black;
+  border-radius: 10%;
+  margin-left: 0;
+
+}
+.btn.btn-lg {
+  padding: 1.5rem 2.8rem;
+  font-size: 1.5rem;
+}
+
+#button:hover{
+  background: rgb(30, 255, 0);
+}
+
+.navbar{
+  position: static;
+ font-size: 1.5rem;
+ padding-right: 30px;
+ padding-left: 30px
+}
+
+
+
+
+.containerAbout{
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  
+
+}
+h2{
+  padding: 15px
+}
+h4{
+  padding: 20px
+}
+
+.climp{
+  height: 50px;
+}
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+.TRANS {  
+
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+  
+.trans2 {  
+  
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  
+}
+
+.opacity{
+  opacity: 1;
+  color: #123c69;
+}
+
+.List li{
+  list-style: none;
+   
+   color: #123c69;
+   font-family: 'Dosis', sans-serif;
+   
+}
+ul li{
+   list-style: none;
+}
+
+.animated {
+ padding-top: 20px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateY(0);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+     opacity: 0;
+     transform: translateY(0);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(-20px);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+.imgth {
+  max-height: 250px;
+  min-height: 250px;
+  overflow: hidden;
+  margin-bottom: 0;
+
+}
+
+.img-thumbnail{
+  margin: 50px auto;
+  box-shadow: 0 0 7px blue;
+ 
+}
+
+.img-thumbnail:hover{
+  -webkit-transform: rotateY(180deg); 
+transform: rotateY(180deg)
+}
+
+
+
+.history{
+  background-color: #8860D0;
+  padding: 10px;
+
+}
+
+
+
+#link{
+  padding:1rem 1.5rem;
+  border-radius: 35%;
+  background-color: rgb(244, 250, 252);
+  color: rgb(209, 157, 157);
+  
+}
+
+
+
+.fixed-bottom{
+  left: auto;
+ margin: 20px;
+  margin-bottom: 20px;
+ 
+}
+.svg-inline--fa{
+   font-size: 50px
+}
+
+
+
+
+.cover{
+  background-color: rgb(154, 212, 235);
+}
+
+.col-md-6 {
+  min-height: 500px;
+
+}
+
+.card-body {
+  margin: 10%;
+ 
+}
+
+.form {
+ margin-top: 30%
+}
+
+.form2 {
+  margin-top: 30%
+ }
+
+ #chat{
+  padding:1.5rem 1.5rem;
+  border-radius: 20%;
+  margin-right: 50px;
+  background-color: #2bbbad;
+  color: white
+
+ }
+
+ #card {
+   margin-bottom: 110px;
+   margin-right: 60px;
+   min-height: 60%;
+   min-width: 350px;
+   border-radius: 5%;
+   background: #2bbbad; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #2bbbad, white); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #2bbbad, white);
+ }
+
+ .border{
+  max-height: 390px;
+  min-height: 390px;
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: 3%;
+  overflow: hidden;
+
+  
+ }
+
+.border::-webkit-scrollbar {
+  width: 0.5em;
+
+}
+
+
+
+.border::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+
+}
+ .border:hover{
+    overflow-y: scroll
+ }
+
+ .card-body {
+  margin: 3%
+}
+
+.names{
+  color : black
+}
+
+.card .card-body .card-text {
+  color: rgb(50, 48, 122);
+}
+
+.members{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  
+}
+
+.moderators{
+  color: white;
+ 
+}
+
+
+
+.names :hover{
+  color: #85a9b3
+}
+
+.scroll{
+  overflow-y: scroll;
+}
+
+.arrow{
+  font-size: 40px;
+  color: #18978a
+}
+.chattext{
+  float: right;
+  margin-right: 40%;
+  color: white
+}
+
+.iconButton{
+  border-style: none;
+  background: none
+}
+
+
+
