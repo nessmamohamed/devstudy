@@ -42,17 +42,7 @@ const express = require('express'),
       app.use('/', require('./routes/confirm'))
 
 
-      //serve static assets if in production
-
-      if(process.env.NODE_ENV === 'production'){
-        //set static folder
-        app.use(express.static('clientc/build'))
-
-        app.get('*', (req, res)=>{
-          res.sendFile(path.join(__dirname, 'clientc', 'build', 'index.html'))
-        })
-        
-      }
+      
 
 
       const dbs = config.get('mongoURL')
@@ -99,6 +89,19 @@ const express = require('express'),
         })
       .then(() => console.log("mongoose connected..."))
       .catch(err => console.log(err))
+
+
+      //serve static assets if in production
+
+      if(process.env.NODE_ENV === 'production'){
+        //set static folder
+        app.use(express.static('clientc/build'))
+
+        app.get('*', (req, res)=>{
+          res.sendFile(path.join(__dirname, 'clientc', 'build', 'index.html'))
+        })
+        
+      }
 
 
        
