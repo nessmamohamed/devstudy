@@ -17,7 +17,7 @@ class chat extends React.Component{
 
    componentDidMount(){
        this.socket()
-    axios.get('http://localhost:5000/api/user')
+    axios.get('/api/user')
     .then(res =>{
         const data = res.data
         this.setState({
