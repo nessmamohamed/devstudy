@@ -4,7 +4,7 @@ const express = require('express'),
       mongoose = require('mongoose'),
       path= require('path')
 
-      server = app.listen(5000),
+      server = app.listen(process.env.Port || 5000),
 
        io = require('socket.io').listen(server)
        
@@ -49,14 +49,14 @@ const express = require('express'),
         app.use(express.static('clientc/build'))
 
         app.get('*', (req, res)=>{
-          res.sendFile(path.resolve(__dirname, 'clientc', 'build', 'index.html'))
+          res.sendFile(path.join(__dirname, 'clientc', 'build', 'index.html'))
         })
       }
 
 
       const dbs = config.get('mongoURL')
 
-      mongoose.connect(dbs, { 
+      mongoose.connect( process.env.MONGODB_URI ||dbs, { 
         useNewUrlParser: true,
         useCreateIndex: true}, (err, db)=>{
               if (err) throw err
