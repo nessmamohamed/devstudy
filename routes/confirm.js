@@ -18,7 +18,7 @@ const express = require('express'),
          .then(user => user.updateOne({confirmed: true})
          )
          setTimeout(() => {
-          res.redirect('http://localhost:3000/confirmed')
+          res.redirect('/confirmed')
          }, 2000);
          
 
