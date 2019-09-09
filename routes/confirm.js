@@ -18,7 +18,7 @@ const express = require('express'),
          .then(user => user.updateOne({confirmed: true})
          )
          setTimeout(() => {
-          res.render('../client/src/components/confirmed')
+          res.redirect(process.env.NODE_ENV + 'confirmed')
          }, 2000);
          
 
