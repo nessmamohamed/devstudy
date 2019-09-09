@@ -6,9 +6,9 @@
   "scripts": {
     "clientc-install": "npm install --prefix clientc",
     "clientc": "npm start --prefix clientc",
-    "start": "nodemon server.js",
-    "server": "node server.js",
-    "dev": "concurrently \"npm run server\" \"npm run clientc\"",
+    "start": "node server.js",
+    
+    "dev": "concurrently \"npm run start\" \"npm run clientc\"",
     "heroku-postbuild": "cd clientc && npm install && npm run build"
   },
   "author": "ness",
