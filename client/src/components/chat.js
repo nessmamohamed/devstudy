@@ -9,7 +9,7 @@ import axios from 'axios'
 
 import io from 'socket.io-client';
 
-let socket = io.connect('http://localhost:5000');
+let socket = io.connect(process.env.PORT || 5000);
 
 class chat extends React.Component{
       
