@@ -4,7 +4,7 @@ import rootReducer from './reducers'
 import createSocketIoMiddleware from 'redux-socket.io';
 import io from 'socket.io-client';
 
-let socket = io('http://localhost:5000');
+let socket = io(process.env.PORT);
 let socketIoMiddleware = createSocketIoMiddleware(socket, "server/");
 
 const Middleware = [thunk],
