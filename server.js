@@ -1,6 +1,9 @@
 const express = require('express'),
+      router = express.router(),
       app = express(),
       config= require('config'),
+      User = require('../models/user'),
+      jwt = require('jsonwebtoken'),
       mongoose = require('mongoose'),
       path= require('path')
 
@@ -103,6 +106,31 @@ const express = require('express'),
         
       }
 
+      //confirmation
+
+      router.get('/confirmation/:id/:token', (req, res)=>{
+
+        try{
+         
+          jwt.verify(req.params.token, config.get('jwtSecret'))
+
+          User.findById(req.params.id)
+         .then(user => user.updateOne({confirmed: true})
+         )
+         setTimeout(() => {
+          res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
+            
+          
+         }, 2000);
+         
+
+        }catch(e){
+              res.send('confirmation error')
+        }
+        
+        
+
+      })
 
        
 
