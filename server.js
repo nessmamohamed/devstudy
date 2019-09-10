@@ -5,9 +5,12 @@ const express = require('express'),
       User = require('./models/user'),
       jwt = require('jsonwebtoken'),
       mongoose = require('mongoose'),
-      path= require('path')
+      path= require('path'),
+      port = process.env.PORT || 5000,
 
-      server = app.listen(process.env.PORT || 5000),
+      server = app.listen(port, ()=>{
+        console.log(port)
+      }),
 
        io = require('socket.io').listen(server)
        
@@ -104,7 +107,11 @@ const express = require('express'),
           res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
         })
 
-        //confirmation
+        
+        
+      }
+
+      //confirmation
        
       app.get('/confirmation/:id/:token', (req, res)=>{
 
@@ -125,12 +132,6 @@ const express = require('express'),
         
 
       })
-
-        
-        
-      }
-
-      
 
        
 
