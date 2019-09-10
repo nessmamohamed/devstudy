@@ -14,7 +14,7 @@ import {
       token: localStorage.getItem('token'),
       isAuthenticated: false,
       isLoading: false,
-      user: null,
+      user: {},
       registerSuccess: null
   }
 
@@ -56,7 +56,7 @@ import {
                             ...state,
                             isLoading:false,
                             isAuthenticated: false,
-                            user: null,
+                            user: {},
                             token: null,
                             registerSuccess: false
                         } 
@@ -68,7 +68,7 @@ import {
                         ...state,
                         isLoading:false,
                         isAuthenticated: false,
-                        user: null,
+                        user: {},
                         token: null
                     } 
                     default: 
