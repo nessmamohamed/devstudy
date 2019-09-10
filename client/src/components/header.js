@@ -46,12 +46,12 @@ class header extends React.Component{
        
       <br/>
 <ul></ul>
-       {!user ? 
+       {!user || user.confirmed === false ? 
          <li className= 'nav-item'>
         <Link className='nav-link' to='/loginOrRegister'>Login or register</Link>
     </li>
 
-       :user.confirmed?
+       :
         <Fragment> 
             <span className='navbar-text mr-3'>
                 <strong>{`${user.name}`}</strong>
@@ -60,7 +60,7 @@ class header extends React.Component{
                         <a className='nav-link' href='/'
                         onClick={this.props.logout}>Logout</a>
                     </li> 
-                    </Fragment> : null
+                    </Fragment> 
                    }
                     
 
