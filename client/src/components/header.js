@@ -46,7 +46,7 @@ class header extends React.Component{
        
       <br/>
 <ul></ul>
-       {!user ? 
+       {!isAuthenticated && !user.confirmed ? 
          <li className= 'nav-item'>
         <Link className='nav-link' to='/loginOrRegister'>Login or register</Link>
     </li>

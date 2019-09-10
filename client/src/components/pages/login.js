@@ -160,8 +160,7 @@ e.preventDefault()
          
      <div className='container'  > 
 
-     {isAuthenticated && user? <Fragment> <h1 className ="text-center mt-5">welcome  {user.name}</h1> <div></div>
-     <h2 className ="text-center mt-5">page will reload after 5 seconds <Wave text="........." effect='stretch' effectChange='3'/></h2> </Fragment>: 
+     {!isAuthenticated && !user.confirmed? 
        <div className='row '>
           <div className='col-lg-10 container'>
             <div className='card mt-5 '>
@@ -273,6 +272,9 @@ e.preventDefault()
            </div>
            </div>
            </div>
+           :
+           <Fragment> <h1 className ="text-center mt-5">welcome  {user.name}</h1> <div></div>
+     <h2 className ="text-center mt-5">page will reload after 5 seconds <Wave text="........." effect='stretch' effectChange='3'/></h2> </Fragment>
            }
          </div>
             </div>
