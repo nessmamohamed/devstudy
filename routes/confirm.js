@@ -18,7 +18,7 @@ const express = require('express'),
           User.findById(req.params.id)
          .then(user => user.updateOne({confirmed: true})
          )
-         res.redirect('/confirmed')
+         .then(res.redirect('/confirmed'))
 
         }catch(e){
               res.send('confirmation error')

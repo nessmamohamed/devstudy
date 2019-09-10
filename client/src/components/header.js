@@ -46,7 +46,7 @@ class header extends React.Component{
        
       <br/>
 <ul></ul>
-       {user.confirmed? 
+       {isAuthenticated ? 
         <Fragment> 
             <span className='navbar-text mr-3'>
                 <strong>{`${user.name}`}</strong>
