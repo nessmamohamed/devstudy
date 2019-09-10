@@ -26,7 +26,7 @@ const express = require('express'),
           .then(user => {
               if (!user) return res.status(400).json({msg: `user doesn't exist`})
 
-              if(!user.confirmed) return res.status(400).json({msg : `please confirm your email first`})
+              if(user.confirmed=== false) return res.status(400).json({msg : `please confirm your email first`})
 
 
                   bcrypt.compare( password, user.password)
