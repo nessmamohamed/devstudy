@@ -1,16 +1,11 @@
 const express = require('express'),
-      router = express.Router(),
       app = express(),
       config= require('config'),
-      User = require('./models/user'),
-      jwt = require('jsonwebtoken'),
       mongoose = require('mongoose'),
       path= require('path'),
-      port = process.env.PORT || 5000,
+      
 
-      server = app.listen(port, ()=>{
-        console.log(port)
-      }),
+      server = app.listen(process.env.PORT || 5000),
 
        io = require('socket.io').listen(server)
        
@@ -45,7 +40,7 @@ const express = require('express'),
       
       app.use('/api/user', require('./routes/user'))
       app.use('/api/auth', require('./routes/auth'))
-      
+      app.use('/', require('./routes/confirm'))
 
 
       
@@ -111,27 +106,6 @@ const express = require('express'),
         
       }
 
-      //confirmation
-       
-      app.get('/confirmation/:id/:token', (req, res)=>{
-
-        try{
-          
-         
-          jwt.verify(req.params.token, config.get('jwtSecret'))
-
-          User.findById(req.params.id)
-         .then(user => user.updateOne({confirmed: true})
-         )
-         
-
-        }catch(e){
-              res.send('confirmation error')
-        }
-        
-        
-
-      })
 
        
 
