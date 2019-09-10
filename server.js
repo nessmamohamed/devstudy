@@ -103,26 +103,19 @@ const express = require('express'),
         app.get('*', (req, res)=>{
           res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
         })
-        
-      }
 
-      //confirmation
-
-      router.get('/confirmation/:id/:token', (req, res)=>{
+        //confirmation
+       
+      app.get('/confirmation/:id/:token', (req, res)=>{
 
         try{
-          res.send('hello')
+          
          
           jwt.verify(req.params.token, config.get('jwtSecret'))
 
           User.findById(req.params.id)
          .then(user => user.updateOne({confirmed: true})
-         )/*
-         setTimeout(() => {
-          res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
-            
-          
-         }, 5000);*/
+         )
          
 
         }catch(e){
@@ -132,6 +125,12 @@ const express = require('express'),
         
 
       })
+
+        
+        
+      }
+
+      
 
        
 
