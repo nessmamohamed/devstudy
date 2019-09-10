@@ -140,7 +140,7 @@ e.preventDefault()
     setTimeout(() => {
       if(this.props.isAuthenticated){
        
-      if(this.props.user.confirmed){
+      if(this.props.user){
         window.location.replace('/')
       }}
     }, 5000);
@@ -160,7 +160,7 @@ e.preventDefault()
          
      <div className='container'  > 
 
-     {isAuthenticated && user.confirmed? <Fragment> <h1 className ="text-center mt-5">welcome  {user.name}</h1> <div></div>
+     {isAuthenticated && user? <Fragment> <h1 className ="text-center mt-5">welcome  {user.name}</h1> <div></div>
      <h2 className ="text-center mt-5">page will reload after 5 seconds <Wave text="........." effect='stretch' effectChange='3'/></h2> </Fragment>: 
        <div className='row '>
           <div className='col-lg-10 container'>
