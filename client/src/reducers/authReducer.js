@@ -15,7 +15,7 @@ import {
       isAuthenticated: false,
       isLoading: false,
       user: false,
-      registerSuccess: null
+      registerSuccess: false
   }
 
   export default function(state = initState, action){

@@ -36,6 +36,7 @@ const express = require('express'),
                       jwt.sign(
                         {id: user.id},
                         config.get('jwtSecret'), 
+                        { expiresIn: '1d' },
                         (err, token)=>{
                             if(err) throw err
 

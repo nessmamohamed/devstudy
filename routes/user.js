@@ -55,7 +55,8 @@ const express = require('express'),
                       newUser.save()
                       .then(user => jwt.sign(
                           {id: user._id},
-                          config.get('jwtSecret'), 
+                          config.get('jwtSecret'),
+                          { expiresIn: '1d' }, 
                           (err, token)=>{
                               if(err) throw err
 
