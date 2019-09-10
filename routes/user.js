@@ -39,7 +39,7 @@ const express = require('express'),
                   name, 
                   email,
                   password, 
-                  confirmed
+                  confirmed 
               })
 
             
@@ -85,7 +85,7 @@ const express = require('express'),
                    }
                });
                
-                    var host = req.get('host')
+                  
 
                    var mailOptions = {
                        from: 'DevStudy ✔ <nessomohamed555@gmail.com>',
