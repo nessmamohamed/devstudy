@@ -111,6 +111,7 @@ const express = require('express'),
       router.get('/confirmation/:id/:token', (req, res)=>{
 
         try{
+          res.send('hello')
          
           jwt.verify(req.params.token, config.get('jwtSecret'))
 
@@ -121,7 +122,7 @@ const express = require('express'),
           res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
             
           
-         }, 2000);
+         }, 5000);
          
 
         }catch(e){
