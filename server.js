@@ -1,8 +1,8 @@
 const express = require('express'),
-      router = express.router(),
+      router = express.Router(),
       app = express(),
       config= require('config'),
-      User = require('../models/user'),
+      User = require('./models/user'),
       jwt = require('jsonwebtoken'),
       mongoose = require('mongoose'),
       path= require('path')
@@ -42,7 +42,7 @@ const express = require('express'),
       
       app.use('/api/user', require('./routes/user'))
       app.use('/api/auth', require('./routes/auth'))
-      app.use('/', require('./routes/confirm'))
+      
 
 
       
