@@ -85,14 +85,14 @@ const express = require('express'),
                    }
                });
                
-                    
+                    var host = req.get('host')
 
                    var mailOptions = {
                        from: 'DevStudy ✔ <nessomohamed555@gmail.com>',
                        to: email ,
                        subject: "Hello " + name,
                        text: 'Hello ' + email + '✔',
-                       html: `<h2>Hello ${name} </h2> <br/> <h5> this is your  <a href = https://${process.env.PORT}/confirmation/${user._id}/${token} >verification link</a> </h3> <br/> <h5> please verify it to login to your account<h3/> ` 
+                       html: `<h2>Hello ${name} </h2> <br/> <h5> this is your  <a href = http://${host}/confirmation/${user._id}/${token} >verification link</a> </h3> <br/> <h5> please verify it to login to your account<h3/> ` 
                    }
    
    
