@@ -140,7 +140,7 @@ e.preventDefault()
     setTimeout(() => {
       if(this.props.isAuthenticated){
        
-      if(this.props.user && this.props.confirmed ){
+      if(this.props.user && this.props.user.confirmed ){
         window.location.replace('/')
       }}
     }, 5000);
