@@ -7,7 +7,7 @@ import {logout} from '../actions/authActions'
 
 class header extends React.Component{
     render(){
-           const {isAuthenticated, user}= this.props.auth
+           const  {user}= this.props.auth.user
 
            
    
