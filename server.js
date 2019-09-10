@@ -117,12 +117,12 @@ const express = require('express'),
 
           User.findById(req.params.id)
          .then(user => user.updateOne({confirmed: true})
-         )
+         )/*
          setTimeout(() => {
           res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
             
           
-         }, 5000);
+         }, 5000);*/
          
 
         }catch(e){
