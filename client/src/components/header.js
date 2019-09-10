@@ -7,7 +7,7 @@ import {logout} from '../actions/authActions'
 
 class header extends React.Component{
     render(){
-           const  {user}= this.props.auth.user
+           const  {isAuthenticated ,user}= this.props.auth
 
            
    
@@ -47,6 +47,7 @@ class header extends React.Component{
       <br/>
 <ul></ul>
        {!user || user.confirmed === false ? 
+       
          <li className= 'nav-item'>
         <Link className='nav-link' to='/loginOrRegister'>Login or register</Link>
     </li>
