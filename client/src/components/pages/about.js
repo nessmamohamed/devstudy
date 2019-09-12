@@ -10,18 +10,18 @@ class About extends React.Component{
         <div>
                
             <div className = 'containerAbout'>
-              
-
-             
+      
             <img src={Climping} alt='climp' className='climp'/>
 
             <h2 className="cl-h4">'What is DevStudy'</h2> 
 
             <div className="animated fadeInUp" >
+
             <p className="cl-p fadeInBottom"> <a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy</a> is a server for general Roblox, and anything to do with Climbing Simulator.<br/>
              We strive to bring joy to our community with our games, and open arms for all. <br/>
              We follow our motto as to help us remember our aim at all times, and to remind all of who we are.<br/>
              <span className="opacity">Study, satisfies the need.</span></p>
+
             </div>
             </div>
         
@@ -32,44 +32,46 @@ class About extends React.Component{
                 
             <h2>Meet The Team </h2>
 
-           
-
         <Fade left>
+
         <p>
          has an extensive staff team,
          backing both our development side of things,
          and our community side of the group. <br/>
          We currently employ the following on the development team:
-      </p>
+        </p>
+
        <ul className="List">
            <li>Graphical Artists</li>
            <li>Scripters</li>
            <li>Modelers</li>
            <li>Sound effects artist</li>
            <li>composer</li>
-           <li>Animator</li>
-                                                         
+           <li>Animator</li>                                                
         </ul> 
+
             </Fade> 
-            
-           
-                    </div>
+              </div>
+
 
                     <div className="col-md-6 ">
 
                         <h2>Our Team</h2>
 
                       <Fade right>
+
                       <p>
                         We also however have a community dedicated team bringing many more things to <a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy</a>. 
                         <br/>These consist of: 
-                        </p>
+                      </p>
+
                         <ul className="List">
                             <li>2 Discord Bot Developers</li>
                             <li>1 Web developer</li>
                             <li>3 moderators</li>
                             <li>1 community manager</li>
                         </ul>
+
                       </Fade>
 
                     </div>
@@ -77,6 +79,7 @@ class About extends React.Component{
                     </div>
 
                     <div className="containerAbout">
+
                       <Fade bottom >
                           
                         <div className='history ' >
@@ -100,11 +103,7 @@ class About extends React.Component{
                 <Footer/>
                 
         </div>
-    )
-    }
-
-     
-
+    )}
 
    }
 
