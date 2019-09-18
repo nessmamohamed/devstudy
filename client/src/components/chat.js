@@ -129,7 +129,7 @@ class chat extends React.Component{
 
 
 
-            if(isAuthenticated && (user.confirmed !== null || user.confirmed=== true) &&this.state.msg.match(/\S+/g) ){
+            if(isAuthenticated && (user.confirmed !== null || user.confirmed=== true) && this.state.msg.match(/\S+/g) ){
 
           
                 const newMessage = {
@@ -176,7 +176,7 @@ class chat extends React.Component{
    
         const { data, userId} = this.state
 
-        const { messages, isAuthenticated} = this.props
+        const { messages, isAuthenticated, user} = this.props
          
      
        const members=  data.filter((n)=>{
