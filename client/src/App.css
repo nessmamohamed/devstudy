@@ -268,7 +268,7 @@ transform: rotateY(180deg)
  #card {
    margin-bottom: 110px;
    margin-right: 60px;
-   min-height: 60%;
+   min-height: 50%;
    min-width: 350px;
    border-radius: 5%;
    background: #d7d1e0; /* fallback for old browsers */
