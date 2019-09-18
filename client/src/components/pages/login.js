@@ -160,7 +160,7 @@ e.preventDefault()
          
      <div className='container'  > 
 
-     {!isAuthenticated || user.confirmed !== true  ? 
+     {!isAuthenticated || !user ? 
        <div className='row '>
           <div className='col-lg-10 container'>
             <div className='card mt-5 '>
