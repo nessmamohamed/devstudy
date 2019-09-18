@@ -7,12 +7,14 @@
 }
 
 .imgSt{
-  position: center;
+  background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 950px;
-  -webkit-filter: opacity(1.5px);
-  filter: blur(1.5px)
+  min-height: 895px;
+  height: 850px;
+  width:100%;
+  filter: blur(8px);
+  -webkit-filter: blur(7px);
+  
 }
 
 .containerrr {
@@ -20,14 +22,24 @@ position: relative;
 overflow: hidden;
 
 }
+
 .containertext{
-  
+  background-color: rgba(0,0,0, 0.4);
+  border: 3px solid #f1f1f1;
+  width: 830px;
+  padding: 40px;
   position: absolute;
-  top: 50px;
-  left:  7%;
+  top: 350px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  
+  
   color: white;
   font-family: 'Righteous', cursive;
 }
+
+
+
 
 .wave{
   color: yellow;
@@ -53,7 +65,7 @@ overflow: hidden;
 }
 
 #button:hover{
-  background: rgb(30, 255, 0);
+  background: rgb(89, 240, 89);
 }
 
 .navbar{
@@ -192,7 +204,7 @@ transform: rotateY(180deg)
 
 
 .history{
-  background-color: #8860D0;
+  background-color: rgb(201, 179, 241);
   padding: 10px;
 
 }
@@ -248,7 +260,7 @@ transform: rotateY(180deg)
   padding:1.5rem 1.5rem;
   border-radius: 20%;
   margin-right: 50px;
-  background-color: #2bbbad;
+  background-color: #30273d;
   color: white
 
  }
@@ -259,9 +271,8 @@ transform: rotateY(180deg)
    min-height: 60%;
    min-width: 350px;
    border-radius: 5%;
-   background: #2bbbad; /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #2bbbad, white); /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #2bbbad, white);
+   background: #d7d1e0; /* fallback for old browsers */
+  
  }
 
  .border{

@@ -169,7 +169,7 @@ e.preventDefault()
                       
                        <div className='col-md-6'  style= {{background: this.state.backgroundRegister}} >
                           <div className='card-body mx-md-4' >
-                            <div className='container' >
+                            <div className='container ' >
                             <Fade>
                               <form  style={{display: this.state.displayRegisterButton }}>
                                <div className="form">
@@ -186,13 +186,15 @@ e.preventDefault()
 
                               <Fade >
                                 
-                              <form className='container' style={{display: this.state.displayRegister}}>
+                              <form className='container ' style={{display: this.state.displayRegister}}>
                               <div className='form-group '>
                                 {this.props.registerSuccess?
                                  <Alert color='success'> you have successfully registered , please verify your email</Alert>:
                                  this.props.registerSuccess === false ? <Alert color='danger'>{this.state.registerMsg}</Alert>:null}
                                  <h3 className='text-center'>Register</h3>
-                                 <label  htmlFor='Registeremail' >User Email:</label>
+                                 <div className='pt-4 '>
+                                 <div className='mb-3'>
+                                   <label  htmlFor='Registeremail ' >User Email:</label>
                                  <input id='Registeremail' className='form-control' placeholder=' Enter email'
                                   type='email' name = 'email'
                                   onChange={this.onChange}/>
@@ -212,6 +214,10 @@ e.preventDefault()
                               <button className='btn btn-default rounded'
                                type='submit' onClick={this.onSubmit1}
                                >Register</button>
+                                 </div>
+                                 </div>
+                                
+                                 
                             </form>
                             </Fade>
                             </div>
@@ -241,10 +247,12 @@ e.preventDefault()
                             
                              <Fade>
                             <form className='container' style={{display: this.state.displayLogin}}>
-                                      
+                                     
+                                        
                                       <div className='form-group '>
                                       {this.state.loginMsg ? <Alert color='danger'>{this.state.loginMsg}</Alert>: null}
                                        <h3 className='text-center'>Login</h3>
+                                       <div className='pt-4 mb-3'>
                                        <label  htmlFor='email' >User email:</label>
                                        <input id='email' className='form-control ' placeholder=' Enter email'
                                         type='email' name = 'email'
@@ -261,6 +269,8 @@ e.preventDefault()
       
                                     <button className='btn btn-default rounded '
                                      type='submit' onClick={this.onSubmit2}  >Login</button>
+                                      </div>
+
                                       </form>
                                       </Fade>
                             

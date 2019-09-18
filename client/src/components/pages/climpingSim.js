@@ -20,13 +20,13 @@ export default function Climping(){
          Collect badges, better gear and compete to be the best climber.
                 </p>
                        
-                <Fade  left duration={2000}>
+               
                            
                 <p>
                     <FontAwesomeIcon icon={faBullhorn} style={{ color: 'red'}}/><br/>
                     This game is only 35% complete, there is much more to come<br/>
                 Ropes, grappling hooks, pets and many more thing</p>
-                </Fade>
+                
               
               
               <h2>
@@ -67,7 +67,7 @@ export default function Climping(){
                           </div>
 
                           <div style={{padding: '20px'}}></div>
-                          <Fade left duration={2000}>
+                         
                               
                           <div >
                               <FontAwesomeIcon icon={faTwitter} style={{ color: 'red'}}/>
@@ -75,9 +75,9 @@ export default function Climping(){
                           <a href="https://twitter.com/DevStudyRBLX">twitterRBL</a>
                           <FontAwesomeIcon icon={faTwitter} style={{ color: 'red'}}/>
                           </div>
-                          </Fade>
                           
-                          <Fade right duration={2000}>
+                          
+                          
                           <div style={{paddingBottom: '30px'}}>
                               <FontAwesomeIcon icon={faExclamationTriangle} style={{ color: 'yellow'}}/>
                               Send bug reports to our twitter 
@@ -85,17 +85,17 @@ export default function Climping(){
                           <FontAwesomeIcon icon={faExclamationTriangle} style={{ color: 'yellow'}}/>
                           </div>
                          
-                          </Fade>
+                         
                                 
-                                <Fade bottom>
-                                <div style={{backgroundColor: "#8860D0", padding:'20px'}}>
+                                
+                                <div style={{backgroundColor: "rgb(163, 125, 235)", padding:'20px'}}>
                                 <h2 style={{paddingTop: '10px'}}>Credits</h2>
                                 <a 
                                 href="https://devforum.roblox.com/t/climbing-simulator-credits/293020 ">
                                 https://devforum.roblox.com/t/climbing-simulator-credits/293020 
                                 </a>
                                 </div>
-                                </Fade>
+                                
                           </div>
                      </div>
 
