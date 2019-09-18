@@ -153,14 +153,14 @@ e.preventDefault()
 
  render(){
 
-   const {isAuthenticated , user}= this.props
+   const {isAuthenticated , user, confirmed}= this.props
     
  return(
     <div>
          
      <div className='container'  > 
 
-     {!isAuthenticated || user.confirmed === false? 
+     {!isAuthenticated || !user || confirmed === false? 
        <div className='row '>
           <div className='col-lg-10 container'>
             <div className='card mt-5 '>
@@ -296,6 +296,7 @@ const mapStateToProps= state =>({
   isAuthenticated: state.auth.isAuthenticated,
   error : state.error,
   user: state.auth.user, 
+  confirmed: state.auth.user.confirmed,
   registerSuccess: state.auth.registerSuccess,
   registerFailed: state.auth.registerFailed
   
