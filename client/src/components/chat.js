@@ -307,7 +307,7 @@ class chat extends React.Component{
                   </Card>
 
                    
-                <button className="btn btn-md btn-md-xl fixed-bottom " id ='chat'
+                <button className="btn btn-sm fixed-bottom " id ='chat'
                  onClick={this.onClick} >
                      <FontAwesomeIcon icon={faComments} style={{fontSize: '30px'}}/>
                   </button>

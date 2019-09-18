@@ -244,7 +244,8 @@ transform: rotateY(180deg)
 }
 
 .card-body {
-  margin: 10%;
+ padding: 0rem;
+ padding-top: 2rem
  
 }
 
@@ -278,12 +279,12 @@ transform: rotateY(180deg)
 
  .border{
   max-height: 390px;
-  min-height: 390px;
+  min-height: 360px;
   min-width: 300px;
   max-width: 300px;
   border-radius: 3%;
   overflow: hidden;
-
+  margin-right: 10px
   
  }
 
