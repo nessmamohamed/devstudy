@@ -326,8 +326,14 @@ outline: 1px solid slategrey;
  
 }
 .card-body{
-  margin: 10px;
-  padding: 5px
+  margin: 5px;
+  
+}
+
+.form-control{
+  width: 85%;
+  padding: 0rem;
+  
 }
 
 

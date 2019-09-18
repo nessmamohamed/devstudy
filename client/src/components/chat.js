@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faComments, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons'
+import { faComments, faAngleDoubleLeft, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import { Card, CardText, CardBody,
     CardTitle, FormGroup, Input, Alert  } from 'reactstrap'
 import {sendMsg} from '../actions/msgAction'
@@ -294,13 +294,12 @@ class chat extends React.Component{
 
                       </CardBody>
 
-                      <FormGroup className='mx-5' >
+                      <FormGroup className='mx-3' >
                           <Input  type='textarea' name='msg' id='msg'
                           onChange={this.onChange}
                           onKeyPress={this.onKeyPress}
                           value ={this.state.msg}/>
-                          <button className='btn btn rounded' style={{backgroundColor: '#2bbbad', color: 'white'}} id='send'
-                          onClick={this.onClick2}>send</button>
+                          <button className = 'iconButton'><FontAwesomeIcon onClick ={this.iconClick} icon ={faAngleDoubleRight}  className='arrow'/></button> 
                       </FormGroup>
 
                      </div> 
