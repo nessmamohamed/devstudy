@@ -99,7 +99,7 @@ class chat extends React.Component{
          
     
 
-        if(isAuthenticated && this.state.msg.match(/\S+/g)){
+        if(isAuthenticated && (user.confirmed !== null || user.confirmed=== true) && this.state.msg.match(/\S+/g)){
 
           
            const newMessage = {
@@ -129,7 +129,7 @@ class chat extends React.Component{
 
 
 
-            if(isAuthenticated && this.state.msg.match(/\S+/g) ){
+            if(isAuthenticated && (user.confirmed !== null || user.confirmed=== true) &&this.state.msg.match(/\S+/g) ){
 
           
                 const newMessage = {
@@ -267,7 +267,7 @@ class chat extends React.Component{
                           </CardTitle>
                           </div>
                           
-                          {!isAuthenticated? <Alert color ='danger'>please login first ..</Alert> : null}
+                          {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert color ='danger'>please login first ..</Alert> : null}
                           <div className='border p-4' 
                            ref={(div) => {
                             this.border = div;
