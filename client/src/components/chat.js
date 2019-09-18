@@ -99,7 +99,7 @@ class chat extends React.Component{
          
     
 
-        if(isAuthenticated && (user.confirmed !== null || user.confirmed=== true) && this.state.msg.match(/\S+/g)){
+        if(isAuthenticated && (user.confirmed !== null && user.confirmed=== true) && this.state.msg.match(/\S+/g)){
 
           
            const newMessage = {
@@ -129,7 +129,7 @@ class chat extends React.Component{
 
 
 
-            if(isAuthenticated && (user.confirmed !== null || user.confirmed=== true) && this.state.msg.match(/\S+/g) ){
+            if(isAuthenticated && (user.confirmed !== null && user.confirmed=== true) && this.state.msg.match(/\S+/g) ){
 
           
                 const newMessage = {
