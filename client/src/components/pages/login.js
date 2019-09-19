@@ -195,19 +195,19 @@ e.preventDefault()
                                  <div className='pt-4 '>
                                  <div className='mb-3'>
                                    <label  htmlFor='Registeremail ' >User Email:</label>
-                                 <input id='Registeremail' className='form-control' placeholder=' Enter email'
+                                 <input id='Registeremail' className='form-control p-2' placeholder=' Enter email'
                                   type='email' name = 'email'
                                   onChange={this.onChange}/>
                               </div>
                               <div className='form-group'>
                                 <label htmlFor='RegisterName'>User Name:</label>
-                                <input id='RegisterName' type='name' className='form-control'
+                                <input id='RegisterName' type='name' className='form-control p-2'
                                 placeholder='Enter Name' name = 'name'
                                 onChange={this.onChange}/>
                               </div>
                               <div className='form-group'>
                                 <label htmlFor='RegisterPassword'>Password:</label>
-                                <input id='RegisterPassword' className='form-control' type='password'
+                                <input id='RegisterPassword' className='form-control p-2' type='password'
                                 placeholder='password' name = 'password'
                                 onChange={this.onChange}/>
                               </div>
@@ -254,14 +254,14 @@ e.preventDefault()
                                        <h3 className='text-center'>Login</h3>
                                        <div className='pt-4 mb-3'>
                                        <label  htmlFor='email' >User email:</label>
-                                       <input id='email' className='form-control ' placeholder=' Enter email'
+                                       <input id='email' className='form-control p-2' placeholder=' Enter email'
                                         type='email' name = 'email'
                                         onChange={this.onChange}/>
                                     </div>
                                      
                                     <div className='form-group'>
                                       <label htmlFor='password'>Password:</label>
-                                      <input id='password' className='form-control' type='password'
+                                      <input id='password' className='form-control p-2' type='password'
                                       placeholder='password' name = 'password'
                                       
                                       onChange={this.onChange}/>
