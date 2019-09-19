@@ -278,13 +278,14 @@ transform: rotateY(180deg)
  }
 
  .border{
-  max-height: 390px;
-  min-height: 360px;
-  min-width: 300px;
+  max-height: 340px;
+  min-height: 340px;
+  min-width:  280px;
   max-width: 300px;
   border-radius: 3%;
   overflow: hidden;
-  margin-right: 10px
+  margin-right: 10px;
+  margin-left: 10px;
   
  }
 
