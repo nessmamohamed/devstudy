@@ -88,10 +88,10 @@ export default function Climping(){
                          
                                 
                                 
-                                <div  className='text-center' style={{backgroundColor: "#c5b0ef", padding:'20px'}}>
+                                <div   style={{backgroundColor: "#c5b0ef", padding:'20px'}}>
                                 <h2 style={{paddingTop: '10px'}}>Credits</h2>
                                 <a 
-                                href="https://devforum.roblox.com/t/climbing-simulator-credits/293020 ">
+                                href="https://devforum.roblox.com/t/climbing-simulator-credits/293020">
                                 https://devforum.roblox.com/t/climbing-simulator-credits/293020 
                                 </a>
                                 </div>
