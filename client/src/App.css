@@ -27,7 +27,7 @@ overflow: hidden;
   background-color: rgba(0,0,0, 0.4);
   border: 3px solid #f1f1f1;
   width: 830px;
-  padding: 40px;
+  padding: 29px;
   position: absolute;
   top: 300px;
   left:50%;
@@ -273,7 +273,7 @@ transform: rotateY(180deg)
  #card {
    margin-bottom: 110px;
    margin-right: 40px;
-     
+   border-radius: 5%;
    min-height: 50%;
    max-width: 350px;
   
@@ -360,6 +360,7 @@ outline: 1px solid slategrey;
 .card-body{
   margin: 5px;
   padding: 0.5rem 0 0;
+ 
 }
 
 .form-control{
