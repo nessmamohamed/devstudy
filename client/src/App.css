@@ -278,8 +278,8 @@ transform: rotateY(180deg)
  }
 
  .border{
-  max-height: 340px;
-  min-height: 340px;
+  max-height: 300px;
+  min-height: 300px;
   min-width:  280px;
   max-width: 300px;
   border-radius: 3%;
@@ -293,7 +293,9 @@ transform: rotateY(180deg)
   width: 0.5em;
 
 }
-
+.card-title {
+  margin-bottom: .3rem;
+}
 
 
 .border::-webkit-scrollbar-thumb {
