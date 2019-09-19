@@ -267,7 +267,7 @@ class chat extends React.Component{
                           </CardTitle>
                           </div>
                           
-                          {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert className='mb-0'color ='danger'>please login first ..</Alert> : null}
+                          {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert className='mb-0 mx-3'color ='danger'>please login first ..</Alert> : null}
                           <div className='border p-4' 
                            ref={(div) => {
                             this.border = div;
