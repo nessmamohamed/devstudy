@@ -276,7 +276,7 @@ transform: rotateY(180deg)
    border-radius: 5%;
    min-height: 50%;
    max-width: 350px;
-   border-radius: 5%;
+   border-bottom-left-radius: 5%;
    background: #d3f1f3;
   
  }
