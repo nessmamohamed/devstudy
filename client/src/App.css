@@ -277,7 +277,7 @@ transform: rotateY(180deg)
    min-height: 50%;
    max-width: 350px;
    border-radius: 5%;
-   background: #d7d1e0;
+   background: #d3f1f3;
   
  }
 
@@ -308,6 +308,10 @@ transform: rotateY(180deg)
   width: 0.5em;
 
 }
+.border1::-webkit-scrollbar {
+  width: 0.5em;
+
+}
 .card-title {
   margin-bottom: .3rem;
 }
@@ -322,6 +326,14 @@ outline: 1px solid slategrey;
     overflow-y: scroll
  }
 
+ .border1::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  
+  }
+   .border1:hover{
+      overflow-y: scroll
+   }
 
 
 .names{
@@ -366,7 +378,7 @@ outline: 1px solid slategrey;
 
 .arrow{
   font-size: 40px;
-  color: #18978a
+  color: #0ab7a5
 }
 .chattext{
   float: right;
