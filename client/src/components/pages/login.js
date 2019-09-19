@@ -12,7 +12,7 @@ class LoginRegister extends React.Component{
 
   state={ 
       backgroundLogin: '',
-      backgroundRegister: 'purple',
+      backgroundRegister: 'linear-gradient(to right, #04535a, #71126c)',
       displayLogin: 'block',
       displayRegister: 'none',
       displayLoginButton:'none',
@@ -67,7 +67,7 @@ clearError=()=>{
    this.props.clearError()
       e.preventDefault();
       this.setState({
-        backgroundLogin: 'purple',
+        backgroundLogin:'linear-gradient(to right, #04535a, #71126c)',
       backgroundRegister: '',
       displayLogin: 'none',
       displayRegister: 'block',
@@ -86,7 +86,7 @@ clearError=()=>{
     e.preventDefault();
     this.setState({
       backgroundLogin: '',
-      backgroundRegister: 'purple',
+      backgroundRegister: 'linear-gradient(to right, #04535a, #71126c)',
       displayLogin: 'block',
       displayRegister: 'none',
       displayLoginButton:'none',
@@ -227,7 +227,7 @@ e.preventDefault()
                       
                            
 
-                      <div className='col-md-6' style={{backgroundColor: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
+                      <div className='col-md-6' style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
                       <div className='card-body mx-md-4 ' >
 
                         <div className='container' >
