@@ -290,7 +290,7 @@ transform: rotateY(180deg)
   overflow: hidden;
   margin-right: 10px;
   margin-left: 10px;
-  
+  border: 1px solid #fcfdff
  }
  .border1{
   max-height: 340px;
@@ -301,7 +301,7 @@ transform: rotateY(180deg)
   overflow: hidden;
   margin-right: 10px;
   margin-left: 10px;
-  
+  border: 1px solid #fcfdff
  }
 
 .border::-webkit-scrollbar {
