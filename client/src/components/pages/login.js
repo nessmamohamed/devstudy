@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react'
 import {Fade}  from 'react-reveal'
-import {Alert} from 'reactstrap'
+import {Alert, Col} from 'reactstrap'
 import {connect} from 'react-redux'
 import {registerUser, loginUser} from '../../actions/authActions'
 import {clearError} from '../../actions/errorActions'
@@ -166,8 +166,7 @@ e.preventDefault()
             <div className='card mt-5 '>
                <div className='row mx-0'>
 
-                      
-                       <div className='col-md-6'  style= {{background: this.state.backgroundRegister, borderBottomLeftRadius: '8%'}} >
+                         <Col md='6' xs={{  order: 2 }}  style= {{background: this.state.backgroundRegister, borderBottomLeftRadius: '8%'}}>
                           <div className='card-body mx-md-4' >
                             <div className='container ' >
                             <Fade>
@@ -223,11 +222,11 @@ e.preventDefault()
                             </div>
                               
                           </div>
-                      </div>
+                      </Col>
                       
                            
 
-                      <div className='col-md-6' style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
+                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
                       <div className='card-body mx-md-4 ' >
 
                         <div className='container' >
@@ -276,7 +275,7 @@ e.preventDefault()
                             
                             </div>
                       </div>
-                      </div>
+                     </Col>
                   </div>
  
            </div>
