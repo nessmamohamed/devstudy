@@ -199,13 +199,13 @@ e.preventDefault()
                                   type='email' name = 'email'
                                   onChange={this.onChange}/>
                               </div>
-                              <div className='form-group'>
+                              <div className='form-group mb-3'>
                                 <label htmlFor='RegisterName'>User Name:</label>
                                 <input id='RegisterName' type='name' className='form-control p-2'
                                 placeholder='Enter Name' name = 'name'
                                 onChange={this.onChange}/>
                               </div>
-                              <div className='form-group'>
+                              <div className='form-group mb-3'>
                                 <label htmlFor='RegisterPassword'>Password:</label>
                                 <input id='RegisterPassword' className='form-control p-2' type='password'
                                 placeholder='password' name = 'password'
@@ -259,7 +259,7 @@ e.preventDefault()
                                         onChange={this.onChange}/>
                                     </div>
                                      
-                                    <div className='form-group'>
+                                    <div className='form-group mb-3'>
                                       <label htmlFor='password'>Password:</label>
                                       <input id='password' className='form-control p-2' type='password'
                                       placeholder='password' name = 'password'
