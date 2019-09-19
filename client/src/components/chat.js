@@ -208,7 +208,7 @@ class chat extends React.Component{
                          <div className = 'moderatorsList'  >
                          <CardTitle className = 'moderators text-center ' >contact with support team</CardTitle>
                           <hr style={{width:'100px'}}/>
-                          <div className='border p-4' 
+                          <div className='border1 p-4' 
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -232,7 +232,7 @@ class chat extends React.Component{
                              <div className = 'membersList'  >
                           <CardTitle className = 'members text-center ' >Members</CardTitle>
                            <hr style={{width:'100px'}}/>
-                           <div className='border p-4' 
+                           <div className='border1 p-4' 
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -262,7 +262,7 @@ class chat extends React.Component{
                           {/** chat */}
                          <div className = 'chat' >
                              <div>
-                <button className = 'iconButton'><FontAwesomeIcon onClick ={this.iconClick} icon ={faAngleDoubleLeft}  className='arrow'/></button> 
+                <button className = 'iconButton ml-2'><FontAwesomeIcon onClick ={this.iconClick} icon ={faAngleDoubleLeft}  className='arrow'/></button> 
                           <CardTitle className='text-center chattext' style={{fontSize: '30px'}} > Chat 
                           </CardTitle>
                           </div>
