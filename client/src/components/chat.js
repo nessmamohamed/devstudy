@@ -270,7 +270,7 @@ class chat extends React.Component{
                           
                           {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert
                            className='mb-0 mx-3 text-center'color ='danger'>please login first ..</Alert> : null}
-                          <div className='border2 p-4' 
+                          <div className='border2 p-4 mx-auto' 
                            ref={(div) => {
                             this.border = div;
                           }}>
