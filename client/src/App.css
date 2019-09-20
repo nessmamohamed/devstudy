@@ -299,17 +299,17 @@ transform: rotateY(180deg)
  }
  
 
-.border::-webkit-scrollbar, .border1::-webkit-scrollbar {
+.border2::-webkit-scrollbar, .border1::-webkit-scrollbar {
   width: 0.5em;
 
 }
 
-.border::-webkit-scrollbar-thumb , .border1::-webkit-scrollbar-thumb {
+.border2::-webkit-scrollbar-thumb , .border1::-webkit-scrollbar-thumb {
 background-color: darkgrey;
 outline: 1px solid slategrey;
 
 }
- .border:hover , .border1:hover{
+ .border2:hover , .border1:hover{
     overflow-y: scroll
  }
 
@@ -337,7 +337,7 @@ outline: 1px solid slategrey;
 
 .card-body{
   margin: 5px;
-  padding: 0.5rem 0 0;
+  padding: .5rem .7rem 0;
  
 }
 
