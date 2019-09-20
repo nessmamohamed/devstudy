@@ -387,7 +387,7 @@ outline: 1px solid slategrey;
    width: 76%
 }
 
-.chatButton{
+#send{
   float: right;
   margin: 0;
   padding: .5rem 0.7rem;
