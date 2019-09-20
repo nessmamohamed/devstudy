@@ -206,7 +206,7 @@ class chat extends React.Component{
                            {userId !== '5d750f7b277b3920242dd040' && userId !== "5d74f9bf81d3431cac4c6443" ? 
                          /** moderators list */
                          <div className = 'moderatorsList'  >
-                         <CardTitle className = 'moderators text-center ' >contact with support team</CardTitle>
+                         <CardTitle className = 'moderators text-center mt-3' >contact with support team</CardTitle>
                           <hr style={{width:'100px'}}/>
                           <div className='border1 p-4' style={{borderColor: "transparent"}}
                            ref={(div) => {
