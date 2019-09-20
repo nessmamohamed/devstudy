@@ -266,9 +266,8 @@ transform: rotateY(180deg)
    margin-bottom: 110px;
    margin-right: 40px;
    border-radius: 5%;
-   min-height: 50%;
+   min-height: 45%;
    max-width: 350px;
-  
    background: rgba(249, 254, 255, 0.93);
   
  }
