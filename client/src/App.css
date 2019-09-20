@@ -250,7 +250,8 @@ transform: rotateY(180deg)
 
 .card-body {
  padding: 0rem;
- padding-top: 2rem
+ padding-top: 2rem;
+ margin: 5px
  
 }
 
@@ -335,11 +336,6 @@ outline: 1px solid slategrey;
 }
 
 
-.card-body{
-  margin: 5px;
-  
- 
-}
 
 .form-control{
   width: 90%;
@@ -385,3 +381,14 @@ outline: 1px solid slategrey;
   
 }
 
+#msg{
+   float: left;
+   width: 76%
+}
+
+.chatButton{
+  margin: 0;
+  padding: .5rem 0.7rem;
+  font-size: 0.8rem;
+
+}

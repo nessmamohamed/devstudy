@@ -296,12 +296,12 @@ class chat extends React.Component{
 
                       </CardBody>
 
-                      <FormGroup className='mx-3' >
-                          <Input  type='textarea' name='msg' id='msg'
+                      <FormGroup className='mx-3' style={{width: '235px'}} >
+                          <Input  type='text' name='msg' id='msg'
                           onChange={this.onChange}
                           onKeyPress={this.onKeyPress}
                           value ={this.state.msg}/>
-                          <button className='btn ' style={{backgroundColor: '#2bbbad', color: 'white'}} id='send'
+                          <button className='btn btn-sm chatbutton' style={{backgroundColor: '#2bbbad', color: 'white'}} id='send'
                           onClick={this.onClick2}>send</button>
                       </FormGroup>
 
