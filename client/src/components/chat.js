@@ -232,7 +232,7 @@ class chat extends React.Component{
                              <div className = 'membersList'  >
                           <CardTitle className = 'members text-center mt-3 ' >Members</CardTitle>
                            <hr style={{width:'100px' }}/>
-                           <div className='border1 p-4 mx-auto' style={{borderColor: "transparent"}}
+                           <div className='border1 p-4 mx-auto' style={{borderColor: "transparent",  minWidth:'260px', maxWidth: '260px'}} 
                            ref={(div) => {
                             this.border = div;
                           }}>
