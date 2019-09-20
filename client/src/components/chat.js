@@ -258,7 +258,7 @@ class chat extends React.Component{
 
 
                    <div style= {{display: this.state.displayChat}}>
-                        <CardBody className='mt-0' >
+                        <CardBody className='mt-0' style={{padding: '.5rem .7rem 0'}}>
                           {/** chat */}
                          <div className = 'chat' >
                              <div>
