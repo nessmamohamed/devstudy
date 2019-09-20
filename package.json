@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "my-framework build --output public",
+    
     "client-install": "npm install --prefix client",
     "client": "npm start --prefix client",
     "start": "node server.js",

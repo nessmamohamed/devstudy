@@ -200,7 +200,7 @@ class chat extends React.Component{
 
 
 
-                      <CardBody className='mt-0' style = {{display: this.state.displayMembers, margin: auto}}>
+                      <CardBody className='mt-0' style = {{display: this.state.displayMembers}}>
 
 
                            {userId !== '5d750f7b277b3920242dd040' && userId !== "5d74f9bf81d3431cac4c6443" ? 
@@ -208,7 +208,7 @@ class chat extends React.Component{
                          <div className = 'moderatorsList'  >
                          <CardTitle className = 'moderators text-center mt-3' >contact with support team</CardTitle>
                           <hr style={{width:'100px'}}/>
-                          <div className='border1 p-4' style={{borderColor: "transparent", margin: auto}}
+                          <div className='border1 p-4 mx-auto' style={{borderColor: "transparent"}}
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -232,7 +232,7 @@ class chat extends React.Component{
                              <div className = 'membersList'  >
                           <CardTitle className = 'members text-center mt-3 ' >Members</CardTitle>
                            <hr style={{width:'100px' }}/>
-                           <div className='border1 p-4' style={{borderColor: "transparent", margin: auto}}
+                           <div className='border1 p-4 mx-auto' style={{borderColor: "transparent"}}
                            ref={(div) => {
                             this.border = div;
                           }}>
