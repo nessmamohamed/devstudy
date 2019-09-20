@@ -269,7 +269,7 @@ class chat extends React.Component{
                           </div>
                           
                           {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert className='mb-0 mx-3'color ='danger'>please login first ..</Alert> : null}
-                          <div className='border p-4' style={{minHeight:'340px', maxHeight: '340px'}}
+                          <div className='border2 p-4' style={{minHeight:'340px', maxHeight: '340px'}}
                            ref={(div) => {
                             this.border = div;
                           }}>
