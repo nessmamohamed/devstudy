@@ -200,7 +200,7 @@ class chat extends React.Component{
 
 
 
-                      <CardBody className='mt-0' style = {{display: this.state.displayMembers}}>
+                      <CardBody className='mt-0' style = {{display: this.state.displayMembers, margin: auto}}>
 
 
                            {userId !== '5d750f7b277b3920242dd040' && userId !== "5d74f9bf81d3431cac4c6443" ? 
@@ -208,7 +208,7 @@ class chat extends React.Component{
                          <div className = 'moderatorsList'  >
                          <CardTitle className = 'moderators text-center mt-3' >contact with support team</CardTitle>
                           <hr style={{width:'100px'}}/>
-                          <div className='border1 p-4' style={{borderColor: "transparent"}}
+                          <div className='border1 p-4' style={{borderColor: "transparent", margin: 'auto'}}
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -232,7 +232,7 @@ class chat extends React.Component{
                              <div className = 'membersList'  >
                           <CardTitle className = 'members text-center mt-3 ' >Members</CardTitle>
                            <hr style={{width:'100px' }}/>
-                           <div className='border1 p-4' style={{borderColor: "transparent"}}
+                           <div className='border1 p-4' style={{borderColor: "transparent", margin: 'auto'}}
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -270,7 +270,7 @@ class chat extends React.Component{
                           
                           {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert
                            className='mb-0 mx-3 text-center'color ='danger'>please login first ..</Alert> : null}
-                          <div className='border2 p-4' style={{minHeight:'340px', maxHeight: '340px'}}
+                          <div className='border2 p-4' 
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -301,7 +301,7 @@ class chat extends React.Component{
                           onChange={this.onChange}
                           onKeyPress={this.onKeyPress}
                           value ={this.state.msg}/>
-                          <button className='btn btn rounded' style={{backgroundColor: '#2bbbad', color: 'white'}} id='send'
+                          <button className='btn ' style={{backgroundColor: '#2bbbad', color: 'white'}} id='send'
                           onClick={this.onClick2}>send</button>
                       </FormGroup>
 
