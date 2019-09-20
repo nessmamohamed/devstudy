@@ -301,7 +301,7 @@ class chat extends React.Component{
                           onChange={this.onChange}
                           onKeyPress={this.onKeyPress}
                           value ={this.state.msg}/>
-                          <button className='btn btn-sm chatbutton' style={{backgroundColor: '#2bbbad', color: 'white'}} id='send'
+                          <button className='btn btn-sm chatbutton' style={{backgroundColor: 'rgb(55, 27, 80)', color: 'white'}} id='send'
                           onClick={this.onClick2}>send</button>
                       </FormGroup>
 
