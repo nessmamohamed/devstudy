@@ -379,7 +379,7 @@ outline: 1px solid slategrey;
 }
 
 .alert-danger {
- 
+  padding: .4rem 0.8rem;
   background-color: transparent;
   border-color: transparent;
   
