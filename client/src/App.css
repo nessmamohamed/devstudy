@@ -327,9 +327,13 @@ outline: 1px solid slategrey;
 
 .members, .moderators{
   color: #32307a;
+ 
+  
+}
+
+.members{
   font-size: 1.5rem;
   font-weight: 300;
-  
 }
 
 
@@ -378,8 +382,8 @@ outline: 1px solid slategrey;
 
 .alert-danger {
  
-  background-color: none;
-  border-color: none;
+  background-color: transparent;
+  border-color: transparent;
   
 }
 
