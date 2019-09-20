@@ -64,6 +64,7 @@ overflow: hidden;
 
 #button:hover{
   background: #30273d;
+  color: white
 }
 
 .navbar{
