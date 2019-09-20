@@ -200,7 +200,7 @@ class chat extends React.Component{
 
 
 
-                      <CardBody className='mt-0' style = {{display: this.state.displayMembers}}>
+                      <CardBody className='mt-0 pt-1' style = {{display: this.state.displayMembers}}>
 
 
                            {userId !== '5d750f7b277b3920242dd040' && userId !== "5d74f9bf81d3431cac4c6443" ? 
