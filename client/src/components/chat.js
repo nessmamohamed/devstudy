@@ -208,7 +208,7 @@ class chat extends React.Component{
                          <div className = 'moderatorsList'  >
                          <CardTitle className = 'moderators text-center mt-3' >contact with support team</CardTitle>
                           <hr style={{width:'100px'}}/>
-                          <div className='border1 p-4 mx-auto' style={{borderColor: "transparent", minWidth:'235px', maxWidth: '235px'}}
+                          <div className='border1 p-4 mx-auto' style={{borderColor: "transparent", minWidth:'260px', maxWidth: '260px'}}
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -269,7 +269,7 @@ class chat extends React.Component{
                           </div>
                           
                           {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert
-                           className='mb-0 mx-3 text-center'color ='danger'>please login first ..</Alert> : null}
+                           className='mb-0 mx-3 text-center chatAlert'color ='danger'>please login first ..</Alert> : null}
                           <div className='border2 p-4 mx-auto' 
                            ref={(div) => {
                             this.border = div;
