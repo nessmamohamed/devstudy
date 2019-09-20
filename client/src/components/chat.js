@@ -230,9 +230,9 @@ class chat extends React.Component{
                            
                            /** members list */
                              <div className = 'membersList'  >
-                          <CardTitle className = 'members text-center ' >Members</CardTitle>
-                           <hr style={{width:'100px'}}/>
-                           <div className='border1 p-4' 
+                          <CardTitle className = 'members text-center mt-3 ' >Members</CardTitle>
+                           <hr style={{width:'100px' }}/>
+                           <div className='border1 p-4' style={{borderColor: "transparent"}}
                            ref={(div) => {
                             this.border = div;
                           }}>
@@ -268,7 +268,8 @@ class chat extends React.Component{
                           </CardTitle>
                           </div>
                           
-                          {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert className='mb-0 mx-3'color ='danger'>please login first ..</Alert> : null}
+                          {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert
+                           className='mb-0 mx-3 text-center'color ='danger'>please login first ..</Alert> : null}
                           <div className='border2 p-4' style={{minHeight:'340px', maxHeight: '340px'}}
                            ref={(div) => {
                             this.border = div;
