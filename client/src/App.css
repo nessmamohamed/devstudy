@@ -267,7 +267,7 @@ transform: rotateY(180deg)
 }
 
  #chat{
-  padding:1.5rem 1.5rem;
+  padding: 1.5rem 1.2rem;
   border-radius: 20%;
   margin-right: 50px;
   background-color: #30273d;
@@ -282,7 +282,7 @@ transform: rotateY(180deg)
    min-height: 50%;
    max-width: 350px;
   
-   background: #d3f1f3;
+   background: #d3f1f3ed;
   
  }
 
