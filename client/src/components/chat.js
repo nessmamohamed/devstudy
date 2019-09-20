@@ -296,7 +296,7 @@ class chat extends React.Component{
 
                       </CardBody>
 
-                      <FormGroup className='mx-3 mt-2' style={{width: '235px'}} >
+                      <FormGroup className='mx-3 mt-2' style={{width: '235px', height: "50px"}} >
                           <Input  type='text' name='msg' id='msg'
                           onChange={this.onChange}
                           onKeyPress={this.onKeyPress}
