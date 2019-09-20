@@ -208,7 +208,7 @@ class chat extends React.Component{
                          <div className = 'moderatorsList'  >
                          <CardTitle className = 'moderators text-center ' >contact with support team</CardTitle>
                           <hr style={{width:'100px'}}/>
-                          <div className='border1 p-4' 
+                          <div className='border1 p-4' style={{borderColor: "transparent"}}
                            ref={(div) => {
                             this.border = div;
                           }}>
