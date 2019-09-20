@@ -240,12 +240,14 @@ transform: rotateY(180deg)
 
 .col-md-6  {
   min-height: 500px;
-
+  padding-top: 40px;
+  padding-left: 40px 
 }
 
 .col{
   min-height: 500px;
-  padding-top: 2rem
+  padding-top: 2rem;
+  padding-left: 40px 
 }
 
 .card-body {
@@ -286,82 +288,51 @@ transform: rotateY(180deg)
   
  }
 
- .border{
+ .border, .border1{
   max-height: 300px;
   min-height: 300px;
-  min-width:  280px;
-  max-width: 300px;
+  min-width:  260px;
+  max-width: 280px;
   border-radius: 3%;
   overflow: hidden;
   margin-right: 10px;
   margin-left: 10px;
   border: 1px solid #fcfdff
  }
- .border1{
-  max-height: 340px;
-  min-height: 340px;
-  min-width:  280px;
-  max-width: 380px;
-  border-radius: 3%;
-  overflow: hidden;
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 1px solid #fcfdff
- }
+ 
 
-.border::-webkit-scrollbar {
+.border::-webkit-scrollbar, .border1::-webkit-scrollbar {
   width: 0.5em;
 
 }
-.border1::-webkit-scrollbar {
-  width: 0.5em;
 
-}
-.card-title {
-  margin-bottom: .3rem;
-  
-}
-
-
-.border::-webkit-scrollbar-thumb {
+.border::-webkit-scrollbar-thumb , .border1::-webkit-scrollbar-thumb {
 background-color: darkgrey;
 outline: 1px solid slategrey;
 
 }
- .border:hover{
+ .border:hover , .border1:hover{
     overflow-y: scroll
  }
 
- .border1::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
+
+ .card-title {
+  margin-bottom: .3rem;
   
-  }
-   .border1:hover{
-      overflow-y: scroll
-   }
-
-
-.names{
-  color : black
 }
 
 .card .card-body .card-text {
   color: rgb(50, 48, 122);
 }
 
-.members{
-  color: white;
+.members, .moderators{
+  color: #32307a;
   font-size: 1.5rem;
   font-weight: 300;
   
 }
 
-.moderators{
-  color: #32307a;
-  
- 
-}
+
 .card-body{
   margin: 5px;
   padding: 0.5rem 0 0;
@@ -405,9 +376,10 @@ outline: 1px solid slategrey;
   
 }
 
-.col-md-6{
-  padding: 40px;
+.alert-danger {
+ 
+  background-color: none;
+  border-color: none;
+  
 }
-
-
 

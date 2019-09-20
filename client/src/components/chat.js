@@ -262,13 +262,14 @@ class chat extends React.Component{
                           {/** chat */}
                          <div className = 'chat' >
                              <div>
-                <button className = 'iconButton ml-2'><FontAwesomeIcon onClick ={this.iconClick} icon ={faAngleDoubleLeft}  className='arrow'/></button> 
+                <button className = 'iconButton ml-2'><FontAwesomeIcon onClick ={this.iconClick}
+                 icon ={faAngleDoubleLeft}  className='arrow'/></button> 
                           <CardTitle className='text-center chattext' style={{fontSize: '30px'}} > Chat 
                           </CardTitle>
                           </div>
                           
                           {!isAuthenticated || (user.confirmed === null || user.confirmed== false)? <Alert className='mb-0 mx-3'color ='danger'>please login first ..</Alert> : null}
-                          <div className='border p-4' 
+                          <div className='border p-4' style={{minHeight:'340px', maxHeight: '340px'}}
                            ref={(div) => {
                             this.border = div;
                           }}>
