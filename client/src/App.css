@@ -289,8 +289,8 @@ transform: rotateY(180deg)
  .border2, .border1{
   max-height: 300px;
   min-height: 300px;
-  min-width:  260px;
-  max-width: 280px;
+  min-width:  235px;
+  max-width: 235px;
   border-radius: 3%;
   overflow: hidden;
   margin-right: 10px;
