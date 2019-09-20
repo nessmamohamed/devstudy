@@ -42,7 +42,7 @@ overflow: hidden;
 
 
 .wave{
-  color: yellow;
+  color: #30273d;
   font-size: 60px;
   
 }
@@ -52,7 +52,7 @@ overflow: hidden;
 }
 
 #button{
-  background: yellow;
+  background: white;
   display: inline;
   color: black;
   border-radius: 10%;
@@ -63,7 +63,7 @@ overflow: hidden;
 
 
 #button:hover{
-  background: rgb(89, 240, 89);
+  background: #30273d;
 }
 
 .navbar{
