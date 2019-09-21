@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from './imgs/discord4.jpg'
-import {  Wave } from 'react-animated-text';
+
 
 
 
@@ -17,13 +17,13 @@ class Home extends React.Component{
            <div className="containertext text-center ">
 
       <div className="wave"> 
-    <Wave text = "DevStudy" effect="stretch" effectChange={1.3}  />
+       DevStudy
      </div>
 
          <p className="spa" >Study, satisfies the need</p>
           <a className="btn btn-lg " id ="button" href="/about" >About Us !</a>
 
-</div>
+           </div>
            </div>
            
           
