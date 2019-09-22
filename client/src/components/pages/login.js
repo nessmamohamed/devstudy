@@ -12,7 +12,7 @@ class LoginRegister extends React.Component{
 
   state={ 
       backgroundLogin: '',
-      backgroundRegister: 'linear-gradient(to right, #04535a, #71126c)',
+      backgroundRegister: 'linear-gradient(to right, rgb(4, 83, 90), rgb(78, 8, 74))',
       displayLogin: 'block',
       displayRegister: 'none',
       displayLoginButton:'none',
@@ -67,7 +67,7 @@ clearError=()=>{
    this.props.clearError()
       e.preventDefault();
       this.setState({
-        backgroundLogin:'linear-gradient(to right, #04535a, #71126c)',
+        backgroundLogin:'linear-gradient(to right, rgb(4, 83, 90), rgb(78, 8, 74))',
       backgroundRegister: '',
       displayLogin: 'none',
       displayRegister: 'block',
@@ -86,7 +86,7 @@ clearError=()=>{
     e.preventDefault();
     this.setState({
       backgroundLogin: '',
-      backgroundRegister: 'linear-gradient(to right, #04535a, #71126c)',
+      backgroundRegister: 'linear-gradient(to right, rgb(4, 83, 90), rgb(78, 8, 74))',
       displayLogin: 'block',
       displayRegister: 'none',
       displayLoginButton:'none',
