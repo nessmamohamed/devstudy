@@ -1,5 +1,5 @@
 import React from 'react';
-import Climping from './Climping.png'
+
 import Fade from 'react-reveal/Fade'
 import Footer from '../footer'
 class About extends React.Component{
@@ -11,7 +11,6 @@ class About extends React.Component{
                
             <div className = 'containerAbout'>
       
-            <img src={Climping} alt='climp' className='climp'/>
 
             <h2 className="cl-h4">'What is DevStudy'</h2> 
 

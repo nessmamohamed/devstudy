@@ -7,7 +7,7 @@ export default function Footer(){
          
               <Fade >
 
-            <footer className='page-footer font-sm blue pt-3 pb-2'>
+            <footer className='page-footer font-sm pt-3 pb-2' style={{background: 'rgb(140, 138, 255)'}}>
                   <div className='container-fluid text-center '>
 
                       <p>As a group inside and outside, 

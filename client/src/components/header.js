@@ -13,7 +13,7 @@ class header extends React.Component{
    
       return(
         <div>
-             <nav className= "navbar navbar-expand-xl navbar-dark " style={{backgroundColor: '#261c35'}}>
+             <nav className= "navbar navbar-expand-xl navbar-dark " style={{backgroundColor: ' rgb(31, 25, 39)'}}>
                      
                      <Link className="navbar-icon" to="/">
                          <img alt="img" className="icon" src="https://cdn.discordapp.com/attachments/590139135566675968/590551057533501490/MOSHED-2019-6-18-14-54-27.gif"/>
@@ -30,9 +30,7 @@ class header extends React.Component{
                       <li className= "nav-item">
                          <Link className="nav-link" to="/"> Home</Link>  
                       </li>
-                      <li className="nav-item">
-                          <Link className="nav-link" to="/About">About Us</Link>
-                      </li>
+                     
                       <li className="nav-item">
                           <Link className="nav-link" to="/store">Store</Link>
                       </li>
@@ -43,13 +41,15 @@ class header extends React.Component{
                       <li className="nav-item">
                          <Link className="nav-link" to="/social">social</Link>
                       </li>
+                    
+                      
        
       <br/>
 <ul></ul>
-       {!user || user.confirmed === false ? 
+       {!user || (user.confirmed=== null || user.confirmed === false) ? 
        
-         <li className= 'nav-item'>
-        <Link className='nav-link' to='/loginOrRegister'>Login or register</Link>
+       <li className="nav-item">
+       <Link className="nav-link" to="/loginOrRegister">login/register</Link>
     </li>
 
        :
