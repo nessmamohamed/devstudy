@@ -13,7 +13,7 @@ class Home extends React.Component{
 
         <div>
           
-        <div className='row mr-0' style={{background:'#f8f6fd'}}>
+        <div className='row mx-0' style={{background:'#f8f6fd'}}>
 
         <div className='col-md-6 mt-5' >
             <div className=" text-center">
