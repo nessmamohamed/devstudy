@@ -31,11 +31,13 @@ class header extends React.Component{
                          <Link className="nav-link" to="/"> Home</Link>  
                       </li>
                      
-                      <li className="nav-item">
-                          <Link className="nav-link" to="/store">Store</Link>
-                      </li>
+                    
                       <li className="nav-item">
                          <Link className="nav-link" to="/climpingSim">Climbing Sim</Link>
+                      </li>
+
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/store">Store</Link>
                       </li>
 
                       <li className="nav-item">

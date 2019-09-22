@@ -13,7 +13,7 @@ class Home extends React.Component{
 
         <div>
           
-        <div className='row' style={{background:'#f8f6fd'}}>
+        <div className='row mr-0' style={{background:'#f8f6fd'}}>
 
         <div className='col-md-6 mt-5' >
             <div className=" text-center">
@@ -29,7 +29,7 @@ class Home extends React.Component{
             </div>
 
             <div className='col-md-6 text-center ' style={{height: '400px'}}>
-                <img src={Img} />
+                <img src={Img} style={{marginRight:'50px'}}/>
             </div>
             
         </div>
