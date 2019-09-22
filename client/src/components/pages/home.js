@@ -23,9 +23,9 @@ class Home extends React.Component{
                </div>
 
              <p className="spa " >Study, satisfies the need</p>
-             <div>
-             <a className="btn btn-lg" id ="button" href="/loginOrRegister" >login </a> 
-             <a className="btn btn-lg" id ="button" href="/loginOrRegister" style={{background: 'orange'}}  >sign up!</a>
+             <div className='mx-auto' style={{display: 'flex', width:'fit-content' , flexFlow: 'column'}}>
+             <a className="btn btn-md " id ="button" href="/loginOrRegister" >login </a> 
+             <a className="btn btn-md  " id ="button" href="/loginOrRegister" style={{background: 'orange'}}  >sign up!</a>
              </div>
             
               </div>
