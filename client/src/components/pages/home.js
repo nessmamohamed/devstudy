@@ -23,13 +23,16 @@ class Home extends React.Component{
                </div>
 
              <p className="spa " >Study, satisfies the need</p>
+             <div>
              <a className="btn btn-lg" id ="button" href="/loginOrRegister" >login </a> 
              <a className="btn btn-lg" id ="button" href="/loginOrRegister" style={{background: 'orange'}}  >sign up!</a>
+             </div>
+            
               </div>
             </div>
 
-            <div className='col-md-6 text-center ' style={{height: '400px'}}>
-                <img src={Img} style={{marginRight:'50px', width: '100%', backgroundSize: 'cover'}}/>
+            <div className='col-md-6 text-center ' >
+                <img src={Img} style={{marginRight:'50px', maxWidth: '100%', backgroundSize: 'cover',height: '400px'}}/>
             </div>
             
         </div>
