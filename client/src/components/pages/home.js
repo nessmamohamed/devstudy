@@ -29,7 +29,7 @@ class Home extends React.Component{
             </div>
 
             <div className='col-md-6 text-center ' style={{height: '400px'}}>
-                <img src={Img} style={{marginRight:'50px'}}/>
+                <img src={Img} style={{marginRight:'50px', width: '100%', backgroundSize: 'cover'}}/>
             </div>
             
         </div>
