@@ -14,7 +14,7 @@ class About extends React.Component{
 
             <h2 className="cl-h4">'What is DevStudy'</h2> 
 
-            <div className="animated fadeInUp" >
+            <div className="animated fadeInUp container" >
 
             <p className="cl-p fadeInBottom"> <a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy</a> is a server for general Roblox, and anything to do with Climbing Simulator.<br/>
              We strive to bring joy to our community with our games, and open arms for all. <br/>
