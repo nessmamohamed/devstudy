@@ -80,7 +80,7 @@ export default function Climping(){
                           
                           <div style={{paddingBottom: '30px'}}>
                               <FontAwesomeIcon icon={faExclamationTriangle} style={{ color: 'yellow'}}/>
-                              Send bug reports to our twitter 
+                              Send bug reports to our  
                           <a href="https://twitter.com/DevStudyRBLX">twitterRBLX</a>
                           <FontAwesomeIcon icon={faExclamationTriangle} style={{ color: 'yellow'}}/>
                           </div>
@@ -88,9 +88,9 @@ export default function Climping(){
                          
                                 
                                 
-                                <div   style={{backgroundColor: "#c5b0ef", padding:'20px'}}>
+                                <div  className='text-center' style={{backgroundColor: "#c5b0ef" , overflow: 'hidden'}}>
                                 <h2 style={{paddingTop: '10px'}}>Credits</h2>
-                                <a 
+                                <a className='p-0'
                                 href="https://devforum.roblox.com/t/climbing-simulator-credits/293020">
                                 https://devforum.roblox.com/t/climbing-simulator-credits/293020 
                                 </a>
