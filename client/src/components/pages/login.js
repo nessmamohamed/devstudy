@@ -226,7 +226,7 @@ e.preventDefault()
                       
                            
 
-                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
+                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col pt-2'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
                       <div className='card-body mx-md-4 ' >
 
                         <div className='container' >
