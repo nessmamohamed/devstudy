@@ -88,7 +88,7 @@ export default function Climping(){
                          
                                 
                                 
-                                <div  className='text-center pb-2' style={{backgroundColor: "#c5b0ef" , overflow: 'hidden'}}>
+                                <div  className='text-center pb-2' style={{backgroundColor: "rgb(206, 189, 241)" , overflow: 'hidden'}}>
                                 <h2 style={{paddingTop: '10px'}}>Credits</h2>
                                 <a className='p-0'
                                 href="https://devforum.roblox.com/t/climbing-simulator-credits/293020">
