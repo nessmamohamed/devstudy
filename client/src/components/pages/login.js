@@ -166,7 +166,7 @@ e.preventDefault()
             <div className='card mt-5 '>
                <div className='row mx-0'>
 
-                         <Col md='6' xs={{  order: 2 }}  style= {{background: this.state.backgroundRegister, borderBottomLeftRadius: '8%'}}>
+                         <Col md='6' xs={{  order: 2 }} className='pt-2' style= {{background: this.state.backgroundRegister, borderBottomLeftRadius: '8%'}}>
                           <div className='card-body mx-md-4' >
                             <div className='container ' >
                             <Fade>
@@ -226,7 +226,7 @@ e.preventDefault()
                       
                            
 
-                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col pt-2'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
+                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
                       <div className='card-body mx-md-4 ' >
 
                         <div className='container' >
