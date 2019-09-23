@@ -248,7 +248,7 @@ e.preventDefault()
                             <form className='container' style={{display: this.state.displayLogin}}>
                                      
                                         
-                                      <div className='form-group '>
+                                      <div className='form-group px-4'>
                                       {this.state.loginMsg ? <Alert color='danger'>{this.state.loginMsg}</Alert>: null}
                                        <h3 className='text-center'>Login</h3>
                                        <div className='pt-4 mb-3'>
