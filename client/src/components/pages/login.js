@@ -226,8 +226,8 @@ e.preventDefault()
                       
                            
 
-                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
-                      <div className='card-body' >
+                     <Col  xs={{ span: 12, order: 1 }} md={{order: 2}} className='col-md-6'  style={{background: this.state.backgroundLogin , borderTopRightRadius: '8%'}}>
+                      <div className='card-body mx-md-4' >
 
                         <div className='container' >
                           <Fade>
@@ -248,7 +248,7 @@ e.preventDefault()
                             <form className='container' style={{display: this.state.displayLogin}}>
                                      
                                         
-                                      <div className='form-group px-4'>
+                                      <div className='form-group px-3'>
                                       {this.state.loginMsg ? <Alert color='danger'>{this.state.loginMsg}</Alert>: null}
                                        <h3 className='text-center'>Login</h3>
                                        <div className='pt-4 mb-3'>
