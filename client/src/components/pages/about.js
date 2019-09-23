@@ -16,7 +16,7 @@ class About extends React.Component{
 
             <div className="animated fadeInUp container" >
 
-            <p className="cl-p fadeInBottom"> <a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy</a> is a server for general Roblox, and anything to do with Climbing Simulator.<br/>
+            <p className="cl-p fadeInBottom"> <a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy </a> is a server for general Roblox, and anything to do with Climbing Simulator.<br/>
              We strive to bring joy to our community with our games, and open arms for all. <br/>
              We follow our motto as to help us remember our aim at all times, and to remind all of who we are.<br/>
              <span className="opacity">Study, satisfies the need.</span></p>
@@ -84,11 +84,11 @@ class About extends React.Component{
                         <div className='history ' >
                        <div className='container '>
                        <h2>history</h2>
-                       <p><a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy</a> 
+                       <p><a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>DevStudy </a> 
                        was originally founded in December 2018.<br/>
                        The group was founded by Double_Dev, and development for the groups game
                         started within days from the groups birth.
-
+                         <br/>
                        <a href='https://web.roblox.com/groups/4085087/DevStudy#!/about'>
                            DevStudy</a> has gradually collected its staff team from multiple out reaches,
                              and continues to do so.</p>

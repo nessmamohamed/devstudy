@@ -2,7 +2,7 @@ import React from 'react'
 import {Fade } from 'react-reveal'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
-import {  faBullhorn, faGem, faBug, faPaw, faMountain, faBolt, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
+import {  faGem, faBug, faPaw, faMountain, faBolt, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Climping(){
@@ -23,7 +23,7 @@ export default function Climping(){
                
                            
                 <p>
-                    <FontAwesomeIcon icon={faBullhorn} style={{ color: 'red'}}/><br/>
+                
                     This game is only 35% complete, there is much more to come<br/>
                 Ropes, grappling hooks, pets and many more thing</p>
                 
