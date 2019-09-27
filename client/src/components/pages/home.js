@@ -6,14 +6,41 @@ import About from './about'
 
 
 class Home extends React.Component{
+
+
+      
+       onClick = (e)=>{
+       
+        this.scrollToBottom()
+
+         
+       }
+
+
+     
+            scrollToBottom() {
+         
+              this.about.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              });
+       }
     
        render(){ 
-         
+
     return(
 
-        <div>
+        <div> 
+
+          <div 
+           ref={(div) =>{
+          this.row = div
+        }}>
+
+         
           
-        <div className='row mx-0' style={{background: 'white', flexDirection: 'row-reverse'}}>
+        <div className='row mx-0' style={{background: 'white', flexDirection: 'row-reverse'}}
+       >
 
         <div className='col-md-6 mt-5' >
             <div className=" text-center">
@@ -24,8 +51,8 @@ class Home extends React.Component{
 
              <p className="spa " >Study, satisfies the need</p>
              <div className='mx-auto' style={{ width:'fit-content' }}>
-             <a className="btn btn-md " id ="button" href="/loginOrRegister" >login </a> 
-             <a className="btn btn-md  " id ="button" href="/loginOrRegister" style={{background: '#41e4e4'}}  >sign up!</a>
+            
+             <button className="btn btn-md " onClick={this.onClick} id ="button" style={{background: '#41e4e4'}}  >About us </button>
              </div>
             
               </div>
@@ -36,11 +63,14 @@ class Home extends React.Component{
             </div>
             
         </div>
-          <div  style={{background: '#f8f6fd'}}>
+          <div  style={{background: '#f8f6fd'}} 
+           ref = {(div => {
+             this.about = div
+           })}>
             
           <About />   
           </div>
-                                 
+          </div>                   
         </div>
     )}
   

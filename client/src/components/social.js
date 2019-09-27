@@ -35,7 +35,7 @@ class Social extends  React.Component {
                       <ul></ul> 
 
                       <a className='btn btn-lg ' href = {this.state.link1}>
-                        <FontAwesomeIcon icon= {faDiscord} color='#7289da'/>
+                        <FontAwesomeIcon icon= {faDiscord} color='#7289da' style={{fontSize: '30px'}}/>
                           <div> discord</div>
                       </a>
 
@@ -47,12 +47,12 @@ class Social extends  React.Component {
                   <div className='mt-2'>
 
                     <a className='btn btn-lg' href={this.state.link3}>
-                      <FontAwesomeIcon icon={faTwitter} color='#00acee'/>
+                      <FontAwesomeIcon icon={faTwitter} color='#00acee' style={{fontSize: '30px'}}/>
                       <div>Twitter</div>
                     </a>
 
                     <a className='btn btn-lg m-3' href={this.state.link4}>
-                    <FontAwesomeIcon icon={faYoutube} color='red'/>
+                    <FontAwesomeIcon icon={faYoutube} color='red' style={{fontSize: '30px'}}/>
                     <div>Youtube</div>
                     </a>
                   </div>
