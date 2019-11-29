@@ -7,7 +7,7 @@ export default function Footer(){
          
               <Fade >
 
-            <footer className='page-footer font-sm pt-3 pb-2' style={{background: 'rgb(140, 138, 255)'}}>
+            <footer className='page-footer font-sm pt-3 pb-2' style={{background: 'rgb(166, 165, 255)'}}>
                   <div className='container-fluid text-center '>
 
                       <p>As a group inside and outside, 
@@ -21,6 +21,11 @@ export default function Footer(){
           Study, satisfies the need.</span> </p>  
       
                   </div>
+                <div className= ' developer text-center'>
+                    programmed by Nessma M. Nazir
+                    <p>contact info: nessomohamed555@gmail.com</p>
+                    
+                </div>
             </footer>
 
             </Fade>

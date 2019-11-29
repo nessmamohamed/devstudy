@@ -165,6 +165,13 @@ ul li{
   margin-bottom: 20px;
  
 }
+
+.developer{
+  font-family: cursive;
+    font-style: oblique;
+    font-size: large;
+    color: #30273d;
+}
 .svg-inline--fa{
    font-size: 20px
 }

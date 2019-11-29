@@ -33,9 +33,7 @@ class chat extends React.Component{
                 this.props.dispatch(sendMsg(newMessage[i]))
                }
            }
-           
-
-           
+   
        })
        
    }
