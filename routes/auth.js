@@ -14,8 +14,6 @@ const express = require('express'),
     
       })
 
-
-
       router.post('/', (req, res)=>{
           // recieve data 
           const { email , password} = req.body

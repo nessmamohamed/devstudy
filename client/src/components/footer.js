@@ -23,8 +23,8 @@ export default function Footer(){
                   </div>
                 <div className= ' developer text-center'>
                     programmed by Nessma M. Nazir
-                    <p>contact info: nessomohamed555@gmail.com</p>
-                    
+                    <p>contact info: nessomohamed555@gmail.com // K𝓪reem11222 (Gaster)™️ ✘#5136</p>
+                  
                 </div>
             </footer>
 
