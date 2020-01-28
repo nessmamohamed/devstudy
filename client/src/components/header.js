@@ -13,7 +13,7 @@ class header extends React.Component{
    
       return(
         <div>
-             <nav className= "navbar navbar-expand-xl navbar-dark " style={{backgroundColor: ' rgb(31, 25, 39)'}}>
+             <nav className= "navbar navbar-expand-xl navbar-dark py-3" style={{backgroundColor: ' rgb(31, 25, 39)'}}>
                      
                      <Link className="navbar-icon" to="/">
                          <img alt="img" className="icon" src="https://cdn.discordapp.com/attachments/590139135566675968/590551057533501490/MOSHED-2019-6-18-14-54-27.gif"/>
@@ -50,16 +50,18 @@ class header extends React.Component{
 <ul></ul>
        {!user || (user.confirmed=== null || user.confirmed === false) ? 
        
-       <li className="nav-item">
+       <li className="nav-item" id='log'
+       style={{boxShadow : '0 2px 5px 0 rgba(197, 191, 191, 0.41), 0 1.5px 5px 0 rgba(249, 243, 243, 0.33)'}}>
        <Link className="nav-link" to="/loginOrRegister">login/register</Link>
     </li>
 
        :
         <Fragment> 
-            <span className='navbar-text mr-3'>
+            <span className='navbar-text mr-3' id='log'>
                 <strong>{`${user.name}`}</strong>
             </span>
-            <li className= 'nav-item'>
+            <li className= 'nav-item'
+            style={{boxShadow : '0 2px 5px 0 rgba(197, 191, 191, 0.41), 0 1.5px 5px 0 rgba(249, 243, 243, 0.33)'}}>
                         <a className='nav-link' href='/'
                         onClick={this.props.logout}>Logout</a>
                     </li> 

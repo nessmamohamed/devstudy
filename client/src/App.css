@@ -106,15 +106,20 @@ h4{
 
 .List li{
   list-style: none;
-   
    color: #123c69;
    font-family: 'Dosis', sans-serif;
    
 }
 ul li{
    list-style: none;
+   width: fit-content;
+   padding: 0rem .5rem;
 }
 
+#log {
+  background-color: #ffffff0f;
+  border-radius: 8%;
+}
 .animated {
  padding-top: 20px;
   -webkit-animation-duration: 1s;
@@ -152,7 +157,7 @@ ul li{
 
 
 .history{
-  background-color: #e3d9f7;
+  background-color: #f5f1ff;
   padding: 10px;
 
 }
