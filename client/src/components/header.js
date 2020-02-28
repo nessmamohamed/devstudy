@@ -50,8 +50,7 @@ class header extends React.Component{
 <ul></ul>
        {!user || (user.confirmed=== null || user.confirmed === false) ? 
        
-       <li className="nav-item" id='log'
-       style={{boxShadow : '0 2px 5px 0 rgba(197, 191, 191, 0.41), 0 1.5px 5px 0 rgba(249, 243, 243, 0.33)'}}>
+       <li className="nav-item" id='log'>
        <Link className="nav-link" to="/loginOrRegister">login/register</Link>
     </li>
 
@@ -60,8 +59,7 @@ class header extends React.Component{
             <span className='navbar-text mr-3' >
                 <strong>{`${user.name}`}</strong>
             </span>
-            <li className= 'nav-item' id='log'
-            style={{boxShadow : '0 2px 5px 0 rgba(197, 191, 191, 0.41), 0 1.5px 5px 0 rgba(249, 243, 243, 0.33)'}}>
+            <li className= 'nav-item' id='log'>
                         <a className='nav-link' href='/'
                         onClick={this.props.logout}>Logout</a>
                     </li> 
