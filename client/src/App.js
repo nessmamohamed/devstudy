@@ -37,7 +37,7 @@ class App extends React.Component {
       <Router>
       <Header/>
   
-     <Route exact path='/' component={Home}/>
+     <Route exact path='/devstudy' component={Home}/>
       <Route  path="/about" component={About}/>
       <Route path="/store" component={Store}/>
       <Route path = '/climpingSim' component={Climping}/>

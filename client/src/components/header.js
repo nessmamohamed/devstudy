@@ -15,7 +15,7 @@ class header extends React.Component{
         <div>
              <nav className= "navbar navbar-expand-xl navbar-dark py-3" style={{backgroundColor: ' rgb(31, 25, 39)'}}>
                      
-                     <Link className="navbar-icon" to="/">
+                     <Link className="navbar-icon" to="/devstudy">
                          <img alt="img" className="icon" src="https://cdn.discordapp.com/attachments/590139135566675968/590551057533501490/MOSHED-2019-6-18-14-54-27.gif"/>
                      </Link>
 
@@ -28,7 +28,7 @@ class header extends React.Component{
 
                   <ul className="navbar-nav ">
                       <li className= "nav-item">
-                         <Link className="nav-link" to="/"> Home</Link>  
+                         <Link className="nav-link" to="/devstudy"> Home</Link>  
                       </li>
                      
                     
