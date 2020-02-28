@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/devstudy/static/css/main.991a5080.chunk.css",
+    "main.js": "/devstudy/static/js/main.b067d592.chunk.js",
+    "main.js.map": "/devstudy/static/js/main.b067d592.chunk.js.map",
+    "runtime-main.js": "/devstudy/static/js/runtime-main.47b48313.js",
+    "runtime-main.js.map": "/devstudy/static/js/runtime-main.47b48313.js.map",
+    "static/css/2.0ca4e8b5.chunk.css": "/devstudy/static/css/2.0ca4e8b5.chunk.css",
+    "static/js/2.aea13d24.chunk.js": "/devstudy/static/js/2.aea13d24.chunk.js",
+    "static/js/2.aea13d24.chunk.js.map": "/devstudy/static/js/2.aea13d24.chunk.js.map",
+    "index.html": "/devstudy/index.html",
+    "precache-manifest.7030ec88d54bad9c350a65e0bba19c25.js": "/devstudy/precache-manifest.7030ec88d54bad9c350a65e0bba19c25.js",
+    "service-worker.js": "/devstudy/service-worker.js",
+    "static/css/2.0ca4e8b5.chunk.css.map": "/devstudy/static/css/2.0ca4e8b5.chunk.css.map",
+    "static/css/main.991a5080.chunk.css.map": "/devstudy/static/css/main.991a5080.chunk.css.map",
+    "static/js/2.aea13d24.chunk.js.LICENSE.txt": "/devstudy/static/js/2.aea13d24.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/devstudy/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/discordd18.jpg": "/devstudy/static/media/discordd18.7fbb92ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47b48313.js",
+    "static/css/2.0ca4e8b5.chunk.css",
+    "static/js/2.aea13d24.chunk.js",
+    "static/css/main.991a5080.chunk.css",
+    "static/js/main.b067d592.chunk.js"
+  ]
+}
