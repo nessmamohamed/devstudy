@@ -13,7 +13,7 @@ class header extends React.Component{
    
       return(
         <div>
-             <nav className= "navbar navbar-expand-xl navbar-dark py-3" style={{backgroundColor: ' rgb(31, 25, 39)'}}>
+             <nav className= "navbar navbar-expand-xl navbar-dark " style={{backgroundColor: ' rgb(31, 25, 39)'}}>
                      
                      <Link className="navbar-icon" to="/devstudy">
                          <img alt="img" className="icon" src="https://cdn.discordapp.com/attachments/590139135566675968/590551057533501490/MOSHED-2019-6-18-14-54-27.gif"/>
