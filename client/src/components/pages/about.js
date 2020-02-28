@@ -40,7 +40,7 @@ class About extends React.Component{
          We currently employ the following on the development team:
         </p>
 
-       <ul className="List">
+       <ul className="List d-inline-block m-3">
            <li>Graphical Artists</li>
            <li>Scripters</li>
            <li>Modelers</li>
@@ -64,7 +64,7 @@ class About extends React.Component{
                         <br/>These consist of: 
                       </p>
 
-                        <ul className="List">
+                        <ul className="List d-inline-block m-3">
                             <li>2 Discord Bot Developers</li>
                             <li>1 Web developer</li>
                             <li>3 moderators</li>
