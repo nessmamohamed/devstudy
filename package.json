@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    
     "client-install": "npm install --prefix client",
     "client": "npm start --prefix client",
     "start": "node server.js",
